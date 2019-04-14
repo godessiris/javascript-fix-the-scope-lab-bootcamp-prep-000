@@ -20,8 +20,15 @@ function add2(n) {
  
 }
 
-function 
+function outerFunction(){
+  var theFunk = "FUNKY!";
+  
+  return function funkyFunction(){
+    var funkyFunction = funtion();
+    return theFunk;
+  }
 }
+
 var funkyFunction = function() {
   return function() {
     return "FUNKY!"
